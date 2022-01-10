@@ -1,0 +1,94 @@
+.box1 {
+    height: 50px;
+    width: 780px;
+    background-color: lightgrey;
+    padding: 0 10px 0 10px;
+}
+
+.img_size {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.center {
+    justify-content: center;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.button {
+    height: 20px;
+    background-color: white;
+}
+
+.space_btw {
+    justify-content: space-between;
+}
+
+.size1 {
+    width: 200px;
+}
+
+.box2 {
+    height: 400px;
+    width: 800px;
+}
+
+.image_back {
+    background-image: url("https://addons-media.operacdn.com/media/CACHE/images/themes/45/91045/1.0-rev2/images/4839c0dc-5698-4030-b916-8583734cff9c/34c77a6fe82f53a8c612a1ff6f44e3fc.jpg") ;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.box3 {
+    height: 300px;
+    width: 780px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.img_size2 {
+    height: 200px;
+    width: 200px;
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+p {
+    text-align: center;
+    font-family: "Comic Sans MS", serif;
+}
+
+.text {
+    font-family: "Comic Sans MS", serif;
+}
+
+.box4 {
+    height: 200px;
+    width: 800px;
+    background-color: lightgrey;
+}
+
+.img_size3 {
+    height: 150px;
+    width: 150px;
+}
+
+.column {
+    flex-direction: column;
+}

@@ -1,0 +1,170 @@
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: black;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.conteiner {
+    height: 500px;
+    width: 220px;
+    border: solid black 2px;
+    border-radius: 15%;
+    padding: 10px;
+    background: #160a8f;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.font {
+    font-family: Nokia Pure Text, sans-seri, serif;
+}
+
+.screen {
+    width: 180px;
+    height: 170px;
+    border: solid black 2px;
+    border-radius: 7%;
+}
+
+.img_back {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs4ckKArwiTOEcD0zNKavN5iUd_vzvQ9j5dmI_Un4dd39vHpWDzPAWmBh_qPUpniUHHhs&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+}
+
+.font_size {
+    font-size: 15px;
+}
+
+.justify_right {
+    justify-content: right;
+}
+
+.box1 {
+    height: 26px;
+    width: 8px;
+    border: solid black;
+    margin: 3px;
+}
+
+.box2 {
+     height: 18px;
+     width: 5px;
+     border: solid black;
+     margin: 3px;
+ }
+
+.box3 {
+    height: 14px;
+    width: 3px;
+    border: solid black;
+    background: black;
+    margin: 3px;
+}
+
+.box4 {
+    width: 184px;
+}
+.space_btw {
+    justify-content: space-between;
+}
+
+.turn {
+    transform: rotate(270deg);
+    margin: 3px;
+}
+
+.turn1 {
+    transform: rotate(25deg);
+}
+
+.turn2 {
+    transform: rotate(-25deg);
+}
+.turn3 {
+    transform: rotate(20deg);
+}
+.turn4 {
+    transform: rotate(-20deg);
+}
+
+.bold {
+    font-weight: bold;
+    margin-top: 6px;
+}
+.button1 {
+    height: 20px;
+    width: 80px;
+    background: #888888;
+    margin: 5px;
+    border-radius: 15%;
+}
+
+.line {
+    border: blue solid 2px;
+    height: 1px;
+    width: 60px;
+    background: blue;
+
+}
+
+.button2 {
+    height: 20px;
+    width: 40px;
+    background: #888888;
+    margin: 5px;
+    border-radius: 15%;
+}
+
+.button3 {
+    height: 20px;
+    width: 40px;
+    background: #888888;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.oval {
+    height: 30px;
+    width: 80px;
+    background: #888888;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.button3:hover {
+    background: #3b4242;
+}
+
+.align_right {
+    align-self: self-end;
+}
+

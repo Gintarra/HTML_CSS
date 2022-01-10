@@ -1,0 +1,59 @@
+.conteiner {
+   display: flex;
+    background-color: lightgrey;
+    margin: 10px;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #bdff01;
+    margin: 10px;
+}
+
+.box1 {
+    width: 50px;
+    height: 80px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_right {
+    display: flex;
+    justify-content: right;
+}
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.box3 {
+    width: 20px;
+    height: 180px;
+    background-color: #bdff01;
+    margin: 10px;
+}
+
+.flex_space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_just {
+    display: flex;
+}
+
+.flex_e {
+    justify-content: space-evenly;
+    display: flex;
+
+}

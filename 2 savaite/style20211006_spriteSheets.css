@@ -1,0 +1,128 @@
+.main {
+    height: 700px;
+    width: 900px;
+    background-image: url("https://www.thespruce.com/thmb/A-yWtssfG_nJKlnQ77Zs_5nwC0Y=/1000x681/filters:no_upscale():max_bytes(150000):strip_icc()/monochromeboyroom-e786aa7542784ced8264d3dfa74af947.jpeg");
+}
+
+.icon1 {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    height: 100px;
+    width: 60px;
+    background-position: 79px 100px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+.icon2 {
+    position: absolute;
+    top: 380px;
+    left: 520px;
+    height: 90px;
+    width: 60px;
+    background-position: -20px -199px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+}
+
+.icon3 {
+    position: absolute;
+    top: 580px;
+    left: 700px;
+    height: 100px;
+    width: 80px;
+    background-position: -412px -202px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+
+}
+
+.icon4 {
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    height: 100px;
+    width: 60px;
+    background-position: 280px 0;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+
+}
+
+.icon5 {
+    position: absolute;
+    top: 230px;
+    left: 350px;
+    height: 100px;
+    width: 60px;
+    background-position: 481px 198px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+
+}
+
+.icon1:hover {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    height: 100px;
+    width: 60px;
+    background-position: -20px 0;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+
+}
+
+.icon2:hover {
+    position: absolute;
+    top: 380px;
+    left: 520px;
+    height: 90px;
+    width: 60px;
+    background-position: -20px -106px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+
+}
+
+
+.icon3:hover {
+    position: absolute;
+    top: 580px;
+    left: 700px;
+    height: 100px;
+    width: 80px;
+    background-position: -310px -500px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+    transition: 0.4ms;
+}
+
+.icon4:hover {
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    height: 100px;
+    width: 70px;
+    background-position: 485px -200px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+    transition: 0.4ms;
+}
+.icon5:hover {
+    position: absolute;
+    top: 230px;
+    left: 350px;
+    height: 100px;
+    width: 60px;
+    background-position: 81px 295px;
+    background-size: 600px;
+    background-image: url("https://previews.123rf.com/images/ylivdesign/ylivdesign1802/ylivdesign180201740/95360374-sheet-music-icons-set-simple-set-of-36-sheet-music-vector-icons-for-web-isolated-on-white-background.jpg");
+
+}
+
+.settings {
+    transition: 0.4ms;
+    mix-blend-mode: multiply;
+}

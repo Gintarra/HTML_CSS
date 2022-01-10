@@ -1,0 +1,29 @@
+.element {
+    height: 800px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.img_e {
+    height: 700px;
+    width: 400px ;
+    padding: 60px;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    background-color: bisque;
+}
+
+.size {
+    height: 300px ;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+    display: block;
+}
+
+.size2 {
+    height: 350px ;
+    width: 300px;
+    display: block;
+}

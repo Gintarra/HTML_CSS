@@ -1,0 +1,136 @@
+div {
+    height: 800px;
+    background-color: lightgrey;
+    padding: 40px;
+}
+.user1 {
+        width: 420px;
+        height: 530px;
+        margin: 10px;
+        display: inline-block;
+        text-align: center;
+    background: rgb(65,9,61);
+    background: radial-gradient(circle, rgba(65,9,61,1) 0%, rgba(0,212,255,1) 100%);
+    border: solid black;
+    box-shadow: 5px 10px;
+    border-radius: 10px;
+
+    transition: transform .2s; /* Animation */
+}
+
+.user1:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.img1 {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.h1 {
+    color: antiquewhite;
+}
+
+.link1 {
+    display: block;
+    margin-bottom: 30px;
+    color:white;
+}
+
+.cursor1 {
+    cursor: wait;
+    background-color: antiquewhite;
+}
+
+.user2 {
+    width: 420px;
+    height: 530px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background: rgb(65,9,61);
+    background: linear-gradient(90deg, rgba(65,9,61,1) 13%, rgba(0,212,255,0.5270483193277311) 74%);
+    border: 5px darkslategray solid;
+    box-shadow: 10px 10px 8px #888888;
+    transition: transform .2s; /* Animation */
+}
+
+.user2:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.img2 {
+    margin-top: 20px;
+    border-radius: 30%;
+    width: 150px;
+    height: 150px;
+}
+
+.h2 {
+    color: ghostwhite;
+}
+
+.link2 {
+    display: block;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.cursor2 {
+    cursor: grab;
+    background-color: antiquewhite;
+}
+
+.user3 {
+    width: 420px;
+    height: 530px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background: rgb(65,9,61);
+    background: radial-gradient(circle, rgba(65,9,61,1) 0%, rgba(0,212,255,0.5270483193277311) 100%);
+    border: double black;
+    box-shadow: 14px 18px 33px 6px rgba(0,0,0,0.83);
+    border-radius: 20px;
+    transition: transform .2s; /* Animation */
+}
+
+.user3:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.img3 {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.h3 {
+    color: darkgrey;
+}
+
+.link3 {
+    display: block;
+    margin-bottom: 30px;
+    color: darkgrey;
+}
+
+.cursor3 {
+    cursor: zoom-in;
+    background-color: antiquewhite;
+}
+
+a.link1:hover {
+    background-color: #888888;
+}
+
+a.link2:hover {
+    background-color: darkslategray;
+}
+
+a.link3:hover {
+    background-color: black;
+}

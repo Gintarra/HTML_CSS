@@ -1,0 +1,66 @@
+.first {
+    width: 100px;
+    height: 150px;
+    border: solid black;
+    transition-duration: 2s;
+}
+
+.first:hover {
+    width: 200px;
+}
+
+.second {
+    width: 100px;
+    height: 150px;
+    border: solid black;
+    transition: 2s;
+}
+
+.second:hover {
+  border-radius: 50%;
+}
+
+.third {
+    width: 100px;
+    height: 150px;
+    border: solid black;
+    transition: 2s;
+}
+
+.third:hover {
+        opacity: 0.2;
+}
+
+.fourth {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    background-color: darkslategray;
+    transition: 4s;
+}
+
+.fourth:hover {
+    transform: rotate(45deg);
+}
+
+.fifth {
+    width: 100px;
+    height: 150px;
+    border: solid black;
+}
+
+.fifth:hover {
+    transform:scale(1.5);
+}
+
+.text1{
+    font-size: 15px;
+    font-style: italic;
+}
+.text1:hover {
+    color: red;
+}
+
+.text2:hover {
+    font-size: 40px;
+}
