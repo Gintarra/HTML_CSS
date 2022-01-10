@@ -1,0 +1,453 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+
+.box1 {
+    border: solid grey 1px;
+    /*opacity: 20%;*/
+    border-radius: 15px;
+
+}
+
+
+.size_icon {
+    width: 20px;
+    height: 16px;
+}
+
+.text-block1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 20px;
+    left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    width: 100px;
+    height: 50px;
+}
+
+.text-block2 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 20px;
+    left: 180px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 100px;
+    height: 50px;
+}
+
+.text-block3 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 70px;
+    left: 340px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    width: 100px;
+    height: 50px;
+}
+
+
+.text-block_top1 {
+    position: absolute;
+    left: 90px;
+    top: 0;
+    background: radial-gradient(rgba(182, 22, 171, 0.51) 18%, rgba(172, 31, 190, 0.56) 33%);
+    /*top: 10px;*/
+    /*right: 0px;*/
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.anime {
+    animation-name: GrowBox1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes GrowBox1 {
+    33% {
+        transform: scale(1.25);
+    }
+    66% {
+        background: radial-gradient(rgba(135, 95, 140, 0.56) 18%, rgba(135, 95, 140, 0.56) 33%);
+
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+@keyframes GrowText {
+    from {
+        font-size: 9px;
+    }
+    to {
+        font-size: 11px;
+    }
+
+}
+
+.text-block_top2 {
+    position: absolute;
+    left: 250px;
+top: 0;
+    background: radial-gradient(rgba(182, 22, 171, 0.51) 18%, rgba(172, 31, 190, 0.56) 33%);
+    /*top: 10px;*/
+    /*right: 0px;*/
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+.text-block_top3 {
+    position: absolute;
+    left: 410px;
+    top: 0;
+    background: radial-gradient(rgba(182, 22, 171, 0.51) 18%, rgba(172, 31, 190, 0.56) 33%);
+    /*top: 10px;*/
+    /*right: 0px;*/
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+.text10 {
+    color: blueviolet;
+    font-family: 'Teko', sans-serif;
+    margin: 5px 0 0 0;
+}
+
+.text_color1 {
+    color: white;
+    margin: 0;
+    font-size: 9px;
+    animation-name: GrowText;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.text11 {
+    margin: 0;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+
+
+/*Grid*/
+.container1 {
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 10% 45% 10% 35%;
+    grid-template-areas:
+    "toolb toolb"
+    "header header"
+"nav side"
+"main side";
+    border-radius: 3%;
+    background-color: white;
+}
+
+.toolb {
+    grid-area: toolb;
+}
+
+.header {
+    grid-area: header;
+
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.side {
+    grid-area: side;
+
+}
+
+.main {
+    grid-area: main;
+    position: relative;
+
+}
+
+/*images*/
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.img_back {
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/08/23/33/modern-house-design-5556075_1280.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.img_style {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 8px 7px 24px 7px rgba(169,181,181,1);
+    -webkit-box-shadow: 8px 7px 24px 7px rgba(169,181,181,1);
+    -moz-box-shadow: 8px 7px 24px 7px rgba(169,181,181,1);
+}
+
+.img_style1 {
+    border-radius: 20px;
+    width: 10px;
+    height: 70px;
+}
+
+/*Font style*/
+.font_family {
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.font_family1 {
+    font-family: 'Teko', sans-serif;
+}
+
+.font_color {
+    color: blueviolet;
+}
+
+.toolb a {
+    font-family: 'Teko', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.icon_text span {
+    margin: 0;
+    font-size: 10px;
+}
+
+.text_color {
+    color: grey;
+    font-size: 8px;
+    margin: 0;
+}
+
+.grey {
+    color: grey;
+}
+
+.text_style {
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav h1 {
+    font-size: 17px;
+}
+
+.side h1 {
+    font-size: 17px;
+}
+
+.font {
+    font-family: 'Teko', sans-serif;
+}
+
+.nav p {
+    font-size: 13px;
+}
+
+.side p {
+    font-size: 13px;
+}
+
+/*flex*/
+.d_flex {
+    display: flex;
+}
+
+.space_btw {
+    justify-content: space-between;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.grow1 {
+    flex: 0.7;
+}
+
+.grow2 {
+    flex: 2;
+}
+
+.grow3 {
+    flex: 3;
+}
+
+.grow4 {
+    flex: 5;
+}
+
+/*aligment*/
+.justify_center {
+    justify-content: center;
+}
+
+.justify_end {
+    justify-content: end;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.align_end {
+    align-items: end;
+}
+
+/*margins & paddings*/
+
+.pad10 {
+    padding: 10px;
+}
+
+.padtop10 {
+    padding-top: 10px;
+}
+
+.pad2 {
+    padding: 2px;
+}
+
+.pad5 {
+    padding: 5px;
+}
+
+.margintop10 {
+    margin-top: 10px;
+}
+
+.marginbot10 {
+    margin-bottom: 10px;
+}
+
+/*other*/
+.buttons {
+    height: 20px;
+    width: 120px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button1 {
+    height: 20px;
+    width: 60px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'teko', serif;
+    border-radius: 5px;
+}
+
+.button2 {
+    height: 20px;
+    width: 60px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: blueviolet;
+    font-family: 'teko', serif;
+    border-radius: 5px;
+}
+
+.button3 {
+    height: 25px;
+    width: 70px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-family: 'teko', serif;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 10px 10px 13px 2px rgb(176, 164, 164);
+    -webkit-box-shadow: 10px 10px 13px 2px rgba(176, 164, 164, 0.75);
+    -moz-box-shadow: 10px 10px 13px 2px rgba(176, 164, 164, 0.75);
+}
+
+.search_bar {
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    width: 80%;
+    border-radius: 7px;
+}
+
+.search_box {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+
+.submit_but {
+    background-color: orange;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+}
+
+.color {
+    color: blueviolet;
+}
+
+.img_style:hover {
+    transform: scale(1.25);
+}
+
+
+.submit_but:hover{
+    transform: scale(1.25);
+}

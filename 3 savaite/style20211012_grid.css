@@ -1,0 +1,32 @@
+body > div {
+    height: 500px;
+    width: 600px;
+    margin: 10px;
+    border: black solid 2px;
+}
+
+
+.container1 {
+    display: grid;
+    grid-template-columns: 50px 200px 200px 50px;
+    grid-template-rows: 50px 400px 50px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 100px 50px 100px 30px 70px;
+    grid-template-rows: 100px 50px 120px 50px;
+}
+
+.container3 {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 30%  10% 60%;
+    grid-template-rows: 10% 20% 20% 20% 30%;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 10%  3%  3% 56% 3% 25%;
+    grid-template-rows: 40% 20% 40%;
+}

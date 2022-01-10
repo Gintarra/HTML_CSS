@@ -1,0 +1,78 @@
+body > div {
+    height: 500px;
+    width: 600px;
+    margin: 10px;
+    border: black solid 2px;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 40% 40% 20%;
+    grid-template-areas:
+    "toolbar header"
+    "main header"
+    "foot foot";
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 35% 15% 15% 35%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "nav toolbar toolbar side"
+    "nav foot main main";
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas:
+    "nav nav nav"
+    ".  main ."
+    "foot foot foot";
+}
+
+.container4 {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 12.5% 25% 25% 25% 12.5% ;
+    grid-template-areas:
+    "header header"
+    "toolbar toolbar"
+        "main nav"
+        "main side"
+        "foot foot";
+}
+
+.header {
+    background-color: pink;
+    grid-area: header;
+}
+
+.toolb {
+    background-color: yellow;
+    grid-area: toolbar;
+}
+
+.main {
+    background-color: deepskyblue;
+    grid-area: main;
+}
+
+.footer {
+    background-color: blue;
+    grid-area: foot;
+}
+
+.side {
+    background-color: mediumvioletred;
+    grid-area: side;
+}
+
+.nav {
+    background-color: red;
+    grid-area: nav;
+}

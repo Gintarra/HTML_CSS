@@ -1,0 +1,235 @@
+.box1 {
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    animation-name: GrowBox1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 10px;
+}
+
+@keyframes GrowBox1 {
+    0% {
+        border-radius: 0;
+    }
+    33% {
+        background-color: #d06914;
+        border-radius: 50%;
+    }
+
+   66% {
+        background-color: #083a08;
+        border-radius: 25%;
+    }
+    100% {
+        background-color: #14dada;
+        border-radius: 0;
+    }
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    animation-name: GrowBox2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 10px;
+}
+
+@keyframes GrowBox2 {
+    0% {
+        width: 200px;
+    }
+    33% {
+        height: 200px;
+        width: 400px;
+    }
+
+    66% {
+        height: 400px;
+        width: 200px;
+    }
+    100% {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.box3_1 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    animation-name: GrowBox3_1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    background-color: deepskyblue;
+}
+
+
+@keyframes GrowBox3_1 {
+    0% {
+
+        background-color: deepskyblue;
+    }
+    33% {
+        height: 150px;
+        width: 150px;
+    }
+
+    66% {
+    height: 100%;
+        width: 100%;
+    }
+    100% {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.box4_1 {
+    height: 200px;
+    width: 50px;
+    border: solid 2px black;
+    animation-name: GrowBox4_1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 10px;
+}
+
+.box4_2 {
+    height: 200px;
+    width: 50px;
+    border: solid 2px black;
+    animation-name: GrowBox4_2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 10px;
+}
+
+.box4_3 {
+    height: 200px;
+    width: 50px;
+    border: solid 2px black;
+    animation-name: GrowBox4_3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin: 10px;
+}
+
+@keyframes GrowBox4_1 {
+    0% {
+        height: 200px;
+    }
+    33% {
+        height: 200px;
+    }
+
+    66% {
+        height: 200px;
+    }
+    100% {
+        height: 250px;
+    }
+}
+
+@keyframes GrowBox4_2 {
+0% {
+        height: 200px;
+    }
+    33% {
+        height: 250px;
+    }
+
+    66% {
+        height: 200px;
+    }
+    100% {
+        height: 200px;
+    }
+}
+
+@keyframes GrowBox4_3 {
+    0% {
+        height: 200px;
+    }
+    33% {
+        height: 200px;
+    }
+
+    66% {
+        height: 250px;
+    }
+    100% {
+        height: 200px;
+    }
+}
+
+.box5 {
+    height: 50px;
+    width: 200px;
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.box5_1 {
+    height: 50px;
+    width: 200px;
+    animation-name: GrowBox5_1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes GrowBox5_1 {
+    0% {
+        width: 25%;
+        background-color: greenyellow;
+    }
+    50% {
+        width: 50%;
+        background-color: greenyellow;
+    }
+    100% {
+        width: 100%;
+        background-color: greenyellow;
+
+    }
+}
+
+
+.justify_center {
+    justify-content: center;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.align_center {
+    align-items: center;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.space_ar {
+    justify-content: space-around;
+}

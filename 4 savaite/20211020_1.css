@@ -1,0 +1,10 @@
+.img1 {
+    height: 100px;
+    width: 100%;
+}
+
+.img2 {
+    height: auto;
+    border-radius: 10px;
+}
+

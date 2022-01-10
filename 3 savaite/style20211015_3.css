@@ -1,0 +1,102 @@
+.container {
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 10% 35% 55%;
+    grid-template-areas:
+    "nav nav nav"
+        "img img img"
+        "main main1 side";
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.img {
+    grid-area: img;
+}
+
+.main {
+    grid-area: main;
+}
+
+.main1 {
+    grid-area: main1;
+}
+
+.side {
+    grid-area: side;
+}
+/*images*/
+.icon {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.img-back {
+    background-image: url("https://cdn.hswstatic.com/gif/why-is-sky-blue.jpg");
+background-position: center;
+    background-size: cover;
+}
+
+.img1 {
+    height: 200px;
+    width: 100%;
+}
+
+.img2 {
+    height: 170px;
+    width: 100%;
+}
+
+.img3 {
+    height: 90px;
+    width: 50%;
+    /*float: left;*/
+}
+
+
+/*flex*/
+.d-flex{
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+.align_center {
+    align-items: center;
+}
+
+.space_btw {
+    justify-content: space-between;
+}
+.grow1 {
+    flex:1;
+}
+
+/*Margin Paddings*/
+
+.pad10 {
+    padding: 10px;
+}
+
+.marg10 {
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 30% auto auto;
+        grid-template-areas:
+    "nav "
+        "img "
+        "main"
+    "main1 ";
+    }
+}
